@@ -3,7 +3,7 @@ provider "heroku" {}
 
 # Create a new application
 resource "heroku_app" "db_app" {
-  name   = "my-db-app"
+  name   = "sf-dq-terraform"
   region = "us"
 
   config_vars = {
