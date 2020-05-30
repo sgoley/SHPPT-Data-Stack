@@ -1,4 +1,9 @@
 
+variable pg_host {}
+variable pg_database {}
+variable pg_username {}
+variable pg_password {}
+
 provider "postgresql" {
   host            = var.pg_host
   database        = var.pg_database
