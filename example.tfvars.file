@@ -1,0 +1,5 @@
+
+pg_host            = "host"
+pg_database        = "db"
+pg_username        = "user"
+pg_password        = "pass"
