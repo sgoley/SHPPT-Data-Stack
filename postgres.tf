@@ -1,4 +1,7 @@
 
+# opened issue for postgres provider to use url / uri on postgres: https://github.com/terraform-providers/terraform-provider-postgresql/issues/143
+# when ready - substitue for value "${heroku_app.db_app.all_config_vars.DATABASE_URL}"
+
 variable pg_host {}
 variable pg_database {}
 variable pg_username {}

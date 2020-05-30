@@ -29,3 +29,8 @@ resource "heroku_addon" "heroku_connect" {
   plan = "herokuconnect:demo"
 }
 # go to setup/connect-setup.sh to complete authentication with postgres and attach to database
+
+# get our database url as an output string:
+output "database_url" {
+    value = "${heroku_app.db_app.all_config_vars.DATABASE_URL}"
+}
