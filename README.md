@@ -18,4 +18,4 @@
 
 ![Account Map example][image]
 
-[image]: "https://github.com/sgoley/sf_dq_terraform/raw/master/resources/images/AccountMap_Page.png" "Embedded PowerBI DQ report for SF"
+[image]: https://github.com/sgoley/sf_dq_terraform/raw/master/resources/images/AccountMap_Page.png "Embedded PowerBI DQ report for SF"
