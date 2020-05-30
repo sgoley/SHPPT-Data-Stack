@@ -1,0 +1,93 @@
+{
+  "mappings": [
+    {
+      "object_name": "Account",
+      "config": {
+        "access": "read_only",
+        "sf_notify_enabled": true,
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "fields": {
+          "BillingCity": {},
+          "BillingLatitude": {},
+          "AccountSource": {},
+          "Name": {},
+          "Sic": {},
+          "IsDeleted": {},
+          "SystemModstamp": {},
+          "BillingPostalCode": {},
+          "NaicsCode": {},
+          "BillingLongitude": {},
+          "CreatedDate": {},
+          "BillingState": {},
+          "NaicsDesc": {},
+          "Type": {},
+          "Website": {},
+          "BillingCountry": {},
+          "Id": {},
+          "AnnualRevenue": {},
+          "Active__c": {},
+          "SicDesc": {},
+          "Industry": {},
+          "BillingStreet": {}
+        },
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        },
+        "applied_at": "2020-05-30T13:56:22.422577Z"
+      }
+    },
+    {
+      "object_name": "Opportunity",
+      "config": {
+        "access": "read_only",
+        "sf_notify_enabled": true,
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "fields": {
+          "ExpectedRevenue": {},
+          "AccountId": {},
+          "StageName": {},
+          "Name": {},
+          "OrderNumber__c": {},
+          "OwnerId": {},
+          "IsDeleted": {},
+          "SystemModstamp": {},
+          "Probability": {},
+          "CreatedDate": {},
+          "Amount": {},
+          "Type": {},
+          "Id": {}
+        },
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        }
+      }
+    }
+  ],
+  "connection": {
+    "app_name": "sf-dq-terraform",
+    "organization_id": "00D5w000002s644EAA",
+    "exported_at": "2020-05-30T14:25:32.814094+00:00",
+    "features": {
+      "disable_bulk_writes": false,
+      "poll_db_no_merge": true,
+      "poll_external_ids": false,
+      "rest_count_only": false
+    },
+    "api_version": "48.0",
+    "name": "",
+    "logplex_log_enabled": false
+  },
+  "version": 1
+}

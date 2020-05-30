@@ -9,7 +9,7 @@ terraform.tfvars
 *.tfstate.*
 
 # powerbi binaries
-*.pbix
+# *.pbix
 
 # Crash log files
 crash.log
