@@ -14,8 +14,14 @@
  * PowerBI (DirectQuery)
  * Terraform
 
- General outline - we want to make a strongly modeled bi stack with Salesforce as a primary data source depending on batch scheduling.
+Architectural Outline - we want to make a strongly modeled bi stack (dbt + pbi) with Salesforce as our primary data source without depending on batch scheduling and minimizing infrastructure management as much as possible via terraform.
+
+![Architecture][image-arch]
+
+Outcome -
 
 ![Account Map example][image]
 
-[image]: https://github.com/sgoley/sf_dq_terraform/raw/master/resources/images/AccountMap_Page.png "Embedded PowerBI DQ report for SF"
+
+[image-arch]: https://github.com/sgoley/shppt-stack/raw/master/resources/images/SHPPT_Data_Stack.png "Architecture Outline"
+[image]: https://github.com/sgoley/shppt-stack/raw/master/resources/images/AccountMap_Page.png "Embedded PowerBI DQ report for SF"
