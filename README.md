@@ -6,7 +6,7 @@
 
 -------------------------
 
- This is a quick and dirty implementation of the SHPPT Data stack:
+ This is a simple implementation of what I'm calling the "SHPPT" Data Stack:
 
  * Salesforce
  * Heroku
