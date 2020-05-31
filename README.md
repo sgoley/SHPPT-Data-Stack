@@ -18,7 +18,7 @@ Architectural Outline - we want to make a strongly modeled bi stack (dbt + pbi) 
 
 ![Architecture][image-arch]
 
-Outcome -
+Outcome - adding a new Account with a FL billing address (Tupperware) before showing that the data change is reflected on the dashboard within 10 seconds!
 
 ![Account Map Demo][image]
 
