@@ -20,8 +20,8 @@ Architectural Outline - we want to make a strongly modeled bi stack (dbt + pbi) 
 
 Outcome -
 
-![Account Map example][image]
+![Account Map Demo][image]
 
 
 [image-arch]: https://github.com/sgoley/shppt-stack/raw/master/resources/images/SHPPT_Data_Stack.png "Architecture Outline"
-[image]: https://github.com/sgoley/shppt-stack/raw/master/resources/images/AccountMap_Page.png "Embedded PowerBI DQ report for SF"
+[image]: https://github.com/sgoley/shppt-stack/raw/master/resources/images/AccountMap_Demo.gif "Embedded PowerBI DQ report for SF"
