@@ -1,8 +1,8 @@
 # Salesforce Direct Query Terraform
 
- Terraform repo for SHPPD data stack example.
+ Terraform repo for SHPPT data stack example.
 
- Make salesforce data direct query accessible to powerbi via Heroku connect + Heroku Postgres.
+ Make Salesforce data direct query accessible to Powerbi via Heroku Connect + Heroku Postgres.
 
 -------------------------
 
@@ -14,7 +14,7 @@
  * PowerBI (DirectQuery)
  * Terraform
 
-Architectural Outline - we want to make a strongly modeled bi stack (dbt + pbi) with Salesforce as our primary data source without depending on batch scheduling and minimizing infrastructure management as much as possible via terraform.
+Architectural Outline - we want to make a strongly-modeled bi stack (dbt + pbi) with Salesforce as our primary data source without depending on batch scheduling and minimizing infrastructure management as much as possible via Terraform.
 
 ![Architecture][image-arch]
 
